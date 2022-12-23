@@ -8,14 +8,14 @@ from pygame import display
 size = 950  # size of the fractal
 bd = 25  # border
 
-w = size + 2 * bd
-h = size + 2 * bd
+w = h = size + 2 * bd
 window = pygame.display.set_mode((w, h))
 
+br = 192
 bg_clr = (0,) * 3
-pt_clr = (192,) * 3
-clrs = ((192, 0, 0), (0, 192, 0), (0, 0, 192),
-        (192, 192, 0), (192, 0, 192), (0, 192, 192))
+pt_clr = (br,) * 3
+clrs = ((br, 0, 0), (0, br, 0), (0, 0, br),
+        (br, br, 0), (br, 0, br), (0, br, br))
 
 iterations = 5 * pow(10, 6)
 updates = 10
