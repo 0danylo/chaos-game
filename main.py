@@ -1,8 +1,10 @@
+import time
 from math import cos, pi, sin
 
 import pygame
+from pygame import display
 
-from fractal_in_circle import *
+from fractals import *
 
 size = 950  # size of the fractal
 bd = 25  # border
@@ -10,45 +12,63 @@ bd = 25  # border
 w = h = size + 2 * bd
 window = pygame.display.set_mode((w, h))
 
-br = 192
+br = 128
 bg_clr = (0,) * 3
 pt_clr = (br,) * 3
 clrs = ((br, 0, 0), (0, br, 0), (0, 0, br),
         (br, br, 0), (br, 0, br), (0, br, br))
 
-iterations = 2 * pow(10, 6)
+iterations = 1 * pow(10, 6)
 updates = 10
 
 
 def main():
     initial = float(time.time() * 1000)
-
-    from regular_fractal import restricted_fractal_1
-    restricted_fractal_1(2)
+    
+    # fractal_avoiding_center_circle(100, 2)
+    # no_cw_neighbors_2(4, 2.75)
     
     final = float(time.time() * 1000)
-    print(str(round((final - initial) / 1000, 4)) + 's')
+    print(str(round((final - initial) / 1000, 3)) + 's')
     
     while True:
         for event in pygame.event.get():
             display.update()
-        if event.type == pygame.MOUSEBUTTONUP:
-            pygame.quit()
-        if event.type is pygame.QUIT:
-            break
+            if event.type == pygame.MOUSEBUTTONUP:
+                pygame.quit()
+            if event.type is pygame.QUIT:
+                break
 
 
 def get_reg_poly_vertices(n):
     vertices = []
-    for i in range(n):
-        vertices.append((int(w / 2 + (size / 2) * cos(2 * pi * i / n - pi / 2)),
-                         int(h / 2 + (size / 2) * sin(2 * pi * i / n - pi / 2))))
+    if n == 4:
+        vertices = ((bd, bd), (bd + size, bd), (bd + size, bd + size), (bd, bd + size))
+    else:
+        for i in range(n):
+            vertices.append((int(w / 2 + (size / 2) * cos(2 * pi * i / n - pi / 2)),
+                             int(h / 2 + (size / 2) * sin(2 * pi * i / n - pi / 2))))
     return vertices
 
 
 def reg_poly_vertices(n):
     for v in get_reg_poly_vertices(n):
         window.set_at((int(v[0]), int(v[1])), pt_clr)
+
+
+def draw_at(pt):
+    """
+        If there is already a point at (x, y),
+        it's overwritten with more brightness.
+    """
+    x = pt[0]
+    y = pt[1]
+    cur_clr = window.get_at((x, y))
+    
+    if cur_clr[0] < 224:
+        window.set_at((x, y), (cur_clr[0] + 32,) * 3)
+    elif cur_clr[0] == 224:
+        window.set_at((x, y), (255,) * 3)
 
 
 if __name__ == '__main__':
