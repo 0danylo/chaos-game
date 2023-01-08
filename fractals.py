@@ -49,6 +49,7 @@ def avoiding_center_circle(r, jump, clr=0):
         pt_q[0] = pt_q[1]
         pt_q[1] = (pt_q[1][0] + (vertices[j][0] - pt_q[1][0]) / jump,
                    pt_q[1][1] + (vertices[j][1] - pt_q[1][1]) / jump)
+        
         if (pt_q[1][0] - w / 2) ** 2 + (pt_q[1][1] - h / 2) ** 2 < r ** 2:
             i -= 1
             pt_q[1] = pt_q[0]
@@ -76,10 +77,10 @@ def restricted_fractal_2(sides, jump, clr=0):
         j = int(random() * sides)
         vt_q[0] = vt_q[1]
         vt_q[1] = vertices[j]
-        
         if vt_q[0] == vt_q[1] or vt_q[0] == vertices[(j + 1) % sides]:
             i -= 1
             continue
+            
         pt = (pt[0] + (vt_q[1][0] - pt[0]) / jump,
               pt[1] + (vt_q[1][1] - pt[1]) / jump)
         draw_pt(pt, 0 if clr == 0 else j + 1)
@@ -95,7 +96,6 @@ def no_neighbors_n_away_cw(sides, n, jump, clr=0):
     
     for i in range(1, points + 1):
         j = int(random() * sides)
-        
         if vt_q[1] == vertices[(j + n) % sides]:
             i -= 1
             continue
@@ -122,7 +122,6 @@ def no_cw_neighbors_2(sides, jump, clr=0):
     
     for i in range(1, points + 1):
         j = int(random() * sides)
-        
         if vt_q[1] == vertices[(j + 1) % sides] or vt_q[1] == vertices[(j + 2) % sides]:
             i -= 1
             continue
@@ -145,15 +144,14 @@ def no_repeats_if_last_n_same(sides, n, jump, clr=0):
     
     for i in range(1, points + 1):
         j = int(random() * sides)
-        
-        if vt_q.count(vt_q[0]) == len(vt_q) and vt_q[n - 1] == vertices[j]:
+        if vt_q.count(vt_q[0]) == n and vt_q[n - 1] == vertices[j]:
             i -= 1
             continue
         
         vt_q.append(vertices[j])
         vt_q = vt_q[1:]
-        pt = (pt[0] + (vt_q[n - 1][0] - pt[0]) / jump,
-              pt[1] + (vt_q[n - 1][1] - pt[1]) / jump)
+        pt = (pt[0] + (vt_q[0][0] - pt[0]) / jump,
+              pt[1] + (vt_q[0][1] - pt[1]) / jump)
         draw_pt(pt, 0 if clr == 0 else j + 1)
 
 
@@ -169,9 +167,9 @@ def no_neighbors_if_last_n_same(sides, n, jump, clr=0):
     for i in range(1, points + 1):
         j = int(random() * sides)
         
-        if vt_q.count(vt_q[0]) == len(vt_q) and \
-              (vt_q[n - 1] == vertices[(j + 1) % sides] or
-               vt_q[0] == vertices[(j - 1) % sides]):
+        if vt_q.count(vt_q[0]) == n and \
+                (vt_q[0] == vertices[(j + 1) % sides] or
+                 vt_q[0] == vertices[(j - 1) % sides]):
             i -= 1
             continue
         
@@ -182,7 +180,7 @@ def no_neighbors_if_last_n_same(sides, n, jump, clr=0):
         draw_pt(pt, 0 if clr == 0 else j + 1)
 
 
-def no_cw_neighbors_if_last_n_same(sides, n, jump, clr=0):
+def no_cw_neighbor_if_last_n_same(sides, n, jump, clr=0):
     """
         the currently chosen vertex cannot be one place away (clockwise) from the previously chosen vertex
         if the two previously chosen vertices are the same.
@@ -194,7 +192,7 @@ def no_cw_neighbors_if_last_n_same(sides, n, jump, clr=0):
     for i in range(1, points + 1):
         j = int(random() * sides)
         
-        if vt_q.count(vt_q[0]) == len(vt_q) and vt_q[0] == vertices[(j + 1) % sides]:
+        if vt_q.count(vt_q[0]) == n and vt_q[0] == vertices[(j + 1) % sides]:
             i -= 1
             continue
         
