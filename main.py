@@ -19,12 +19,15 @@ inc = 256 / num_shades  # increment when overwriting brightness
 
 bg_clr = (0,) * 3  # background color (black)
 pt_clr = (inc,) * 3  # base point color
+# clrs = ((inc, inc, inc),
+#         (inc, 0, 0), (inc, inc, 0), (0, inc, 0),
+#         (0, inc, inc), (0, 0, inc), (inc, 0, inc))
 clrs = ((inc, inc, inc),
-        (inc, 0, 0), (inc, inc, 0), (0, inc, 0),
-        (0, inc, inc), (0, 0, inc), (inc, 0, inc))
+        (inc, 0, 0), (0, inc, 0), (0, 0, inc),
+        (inc, inc, 0), (inc, 0, inc), (0, inc, inc))
 num_clrs = len(clrs)
 
-points = 4 * pow(10, 6)  # number of points to draw
+points = 1 * pow(10, 6)  # number of points to draw
 updates = 10  # number of times to update the screen
 
 
@@ -32,6 +35,8 @@ def main():
     initial = float(time.time() * 1000)
     
     # fractals for demonstration
+    
+    # vicsek(2, 1)
     
     # avoiding_center_circle(100, 1.9)
     # avoiding_center_circle(100, 2)
@@ -75,11 +80,11 @@ def main():
     # no_cw_neighbors_2(6, 1.7)
     # no_cw_neighbors_2(6, 2)
     # no_cw_neighbors_2(6, 2.2)
-    no_cw_neighbors_2(8, 1.8)
+    # no_cw_neighbors_2(8, 1.8)
     
     final = float(time.time() * 1000)
     print(str(round((final - initial) / 1000, 3)) + 's')
-    normalize_brightness()  # doesn't work
+    normalize_brightness()
     # pygame.image.save(window, "test_fractal.png")
     
     while True:
@@ -118,15 +123,22 @@ def draw_pt(pt, n=0):
     add_clr = clrs[n]
     pt_br = max(cur_clr[0], cur_clr[1], cur_clr[2])
     
-    if pt_br < 256 - inc:
-        window.set_at((x, y), (cur_clr[0] + add_clr[0],
-                               cur_clr[1] + add_clr[1],
-                               cur_clr[2] + add_clr[2]))
-    elif pt_br == 256 - inc:
-        new_clr = (255 if add_clr[0] > 0 else 0,
-                   255 if add_clr[1] > 0 else 0,
-                   255 if add_clr[2] > 0 else 0)
-        window.set_at((x, y), new_clr)
+    for i in range(3):
+        if cur_clr[i] < 256 - inc:
+            cur_clr[i] += int(add_clr[i])
+        elif cur_clr[i] == 256 - inc:
+            cur_clr[i] = 255
+    window.set_at((x, y), cur_clr)
+    
+    # if pt_br < 256 - inc:
+    #     window.set_at((x, y), (cur_clr[0] + add_clr[0],
+    #                            cur_clr[1] + add_clr[1],
+    #                            cur_clr[2] + add_clr[2]))
+    # elif pt_br == 256 - inc:
+    #     new_clr = (255 if add_clr[0] != 0 else 0 if add_clr[0] == 0 else cur_clr[0] + add_clr[0],
+    #                255 if add_clr[1] != 0 else 0 if add_clr[1] == 0 else cur_clr[1] + add_clr[1],
+    #                255 if add_clr[2] != 0 else 0 if add_clr[2] == 0 else cur_clr[2] + add_clr[2])
+    #     window.set_at((x, y), new_clr)
 
 
 def normalize_brightness(new_max=255):

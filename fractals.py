@@ -27,17 +27,17 @@ def perfect_nflake(sides, clr=0):
     nflake(sides, 3 / sides + 1, clr)
 
 
-def carpet(clr=0):
+def carpet(jump, clr=0):
     vertices = ((bd, bd), (bd + size, bd), (bd, bd + size), (bd + size, bd + size),
                 (bd + size / 2, bd), (bd + size / 2, bd + size),
                 (bd, bd + size / 2), (bd + size, bd + size / 2))
-    basic_fractal(vertices, 1.5, clr)
+    basic_fractal(vertices, jump, clr)
 
 
-def vicsek(clr=0):
+def vicsek(jump, clr=0):
     vertices = ((bd, bd), (bd + size, bd), (bd, bd + size), (bd + size, bd + size),
                 (w / 2, h / 2))
-    basic_fractal(vertices, 1.5, clr)
+    basic_fractal(vertices, jump, clr)
 
 
 def avoiding_center_circle(r, jump, clr=0):
@@ -64,7 +64,7 @@ def avoiding_center_circle(r, jump, clr=0):
 
 def restricted_fractal_2(sides, jump, clr=0):
     """
-        written by GitHub Copilot
+        Copilot example
 
         the current vertex cannot be chosen in the next iteration
         and the next vertex cannot be the previous vertex
@@ -109,7 +109,7 @@ def no_neighbors_n_away_cw(sides, n, jump, clr=0):
 
 def no_cw_neighbors_2(sides, jump, clr=0):
     """
-        written by GitHub Copilot
+        Copilot example
         
         the current vertex cannot be one place away (clockwise) from the previously chosen vertex
         and the next vertex cannot be the opposite vertex
