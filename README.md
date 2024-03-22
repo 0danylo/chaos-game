@@ -1,47 +1,47 @@
-![fractal3](https://github.com/0danylo/chaos-game/assets/29526662/ad34965b-fb80-46a8-b8d1-42338e0e6f59)
-![fractal4](https://github.com/0danylo/chaos-game/assets/29526662/cbacbd4e-cb2d-49ad-a543-f89074e6c675)
-![fractal5](https://github.com/0danylo/chaos-game/assets/29526662/b64a5d4b-3cbb-422c-9005-fbdf11fa7001)
-![fractal6](https://github.com/0danylo/chaos-game/assets/29526662/2bbc5812-1ee9-4d2f-ab76-2c100175e9af)
-![fractal7](https://github.com/0danylo/chaos-game/assets/29526662/a48df869-dab1-450a-93c7-1aaed01c6678)
-![fractal8](https://github.com/0danylo/chaos-game/assets/29526662/2e1b1fbe-bb3a-41ce-b8df-e267311f4978)
-![fractal9](https://github.com/0danylo/chaos-game/assets/29526662/198a4db1-3c4e-40f0-a197-42fa92527f38)
-![fractal10](https://github.com/0danylo/chaos-game/assets/29526662/13e33f11-d2ad-468b-994b-5598035f4994)
-![fractal11](https://github.com/0danylo/chaos-game/assets/29526662/daff1abc-5bf0-471e-8807-721c32c18a3e)
-![fractal12](https://github.com/0danylo/chaos-game/assets/29526662/ff2ae8fd-bd2d-4931-83bf-007fd737af42)
-![fractal13](https://github.com/0danylo/chaos-game/assets/29526662/81ab3771-19d5-469d-be92-f3e2e7d6deea)
-![fractal14](https://github.com/0danylo/chaos-game/assets/29526662/41fb42ca-c505-4aa6-a9ce-3c46590cf39a)
-![fractal15](https://github.com/0danylo/chaos-game/assets/29526662/2e4ba73d-93f6-4d71-8704-e08383be185a)
-![fractal16](https://github.com/0danylo/chaos-game/assets/29526662/412b8efc-f4fa-46de-8a30-7b119e6077c1)
-![fractal17](https://github.com/0danylo/chaos-game/assets/29526662/a0c53fed-0f82-44bf-9775-f1ace2f6be12)
-![fractal18](https://github.com/0danylo/chaos-game/assets/29526662/e6773b5f-6606-414d-9515-fee475c93aaf)
-![fractal19](https://github.com/0danylo/chaos-game/assets/29526662/574dea46-a46b-4929-b84f-8b71d547f3b6)
-![fractal20](https://github.com/0danylo/chaos-game/assets/29526662/e396937f-6e7d-4e26-8ec1-e6f17487f8b2)
-![fractal21](https://github.com/0danylo/chaos-game/assets/29526662/bccb2891-ca20-40bf-8d05-87a07cd122fd)
-![fractal22](https://github.com/0danylo/chaos-game/assets/29526662/8fbb0715-bf0e-4122-b773-e5350cc51568)
-![fractal23](https://github.com/0danylo/chaos-game/assets/29526662/f49bce1c-d182-4ab3-aff8-f0c30f96b67d)
-![fractal24](https://github.com/0danylo/chaos-game/assets/29526662/151085c5-7630-481e-aa18-e8d12d69470a)
-![fractal25](https://github.com/0danylo/chaos-game/assets/29526662/fa9b9f1d-e409-4cc9-9136-02d1809006bb)
-![fractal26](https://github.com/0danylo/chaos-game/assets/29526662/60da2361-7244-48ee-89ea-3e2a4010e871)
-![fractal27](https://github.com/0danylo/chaos-game/assets/29526662/dec542c4-0eb0-4bf8-aa6f-4ad53541bd4e)
-![fractal28](https://github.com/0danylo/chaos-game/assets/29526662/027eaeaa-16ba-43ac-937c-8f4bf06b94ba)
-![fractal29](https://github.com/0danylo/chaos-game/assets/29526662/65a81111-81ee-4888-9733-75f848cb0cce)
-![fractal30](https://github.com/0danylo/chaos-game/assets/29526662/9754ef57-5bda-4830-a9fd-6974e2119c3a)
-![fractal31](https://github.com/0danylo/chaos-game/assets/29526662/4ebc0a14-62bb-47a2-85d1-acb5c9858f6b)
-![fractal32](https://github.com/0danylo/chaos-game/assets/29526662/53702483-7dcc-4496-b023-c8da291a26fb)
-![fractal33](https://github.com/0danylo/chaos-game/assets/29526662/18c8ed4d-e9b4-4611-a9ed-2a9d46548f6b)
-![fractal34](https://github.com/0danylo/chaos-game/assets/29526662/64a82102-450d-4b30-9cf2-765658ef22aa)
-![fractal35](https://github.com/0danylo/chaos-game/assets/29526662/f80a3b36-cfc8-4235-a9f9-97c091df6683)
-![fractal36](https://github.com/0danylo/chaos-game/assets/29526662/a59c8a3b-9773-4cbf-ac67-51df04745fc4)
-![fractal37](https://github.com/0danylo/chaos-game/assets/29526662/88fc25bb-64c5-44fd-949f-1df07bdfd194)
-![fractal38](https://github.com/0danylo/chaos-game/assets/29526662/4074cda7-3b75-4712-9adb-ae246f51970d)
-![fractal39](https://github.com/0danylo/chaos-game/assets/29526662/3e80a965-984a-46ed-9ba8-9476e5c82b9a)
-![fractal40](https://github.com/0danylo/chaos-game/assets/29526662/883a7fb0-15f3-48ea-8a8f-91a0f95c6dba)
-![fractal41](https://github.com/0danylo/chaos-game/assets/29526662/70f535c4-c760-4d9f-b557-39725c460977)
-![fractal42](https://github.com/0danylo/chaos-game/assets/29526662/1c744462-a1e5-4af1-92c3-b7865889b017)
-![fractal43](https://github.com/0danylo/chaos-game/assets/29526662/5ed2a4ad-cc82-4ad3-886a-dee2355ad4c5)
-![fractal44](https://github.com/0danylo/chaos-game/assets/29526662/6aba103c-7534-463f-859b-996251644282)
-![fractal45](https://github.com/0danylo/chaos-game/assets/29526662/fd994331-0af1-4979-a033-b170ae6e486c)
-![fractal46](https://github.com/0danylo/chaos-game/assets/29526662/6d4064a2-ecfc-4f50-9cbf-34f1526535cf)
-![fractal47](https://github.com/0danylo/chaos-game/assets/29526662/a58b2182-36f6-4843-8b49-6a8f002a6c0f)
-![fractal48](https://github.com/0danylo/chaos-game/assets/29526662/79eb568d-b5cf-417e-8b4c-25f74ab0bc14)
-![fractal49](https://github.com/0danylo/chaos-game/assets/29526662/8651edf5-e884-4ae5-9c9a-fcae6a46e19b)
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/ad34965b-fb80-46a8-b8d1-42338e0e6f59" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/cbacbd4e-cb2d-49ad-a543-f89074e6c675" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/b64a5d4b-3cbb-422c-9005-fbdf11fa7001" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/2bbc5812-1ee9-4d2f-ab76-2c100175e9af" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/a48df869-dab1-450a-93c7-1aaed01c6678" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/2e1b1fbe-bb3a-41ce-b8df-e267311f4978" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/198a4db1-3c4e-40f0-a197-42fa92527f38" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/13e33f11-d2ad-468b-994b-5598035f4994" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/daff1abc-5bf0-471e-8807-721c32c18a3e" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/ff2ae8fd-bd2d-4931-83bf-007fd737af42" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/81ab3771-19d5-469d-be92-f3e2e7d6deea" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/41fb42ca-c505-4aa6-a9ce-3c46590cf39a" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/2e4ba73d-93f6-4d71-8704-e08383be185a" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/412b8efc-f4fa-46de-8a30-7b119e6077c1" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/a0c53fed-0f82-44bf-9775-f1ace2f6be12" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/e6773b5f-6606-414d-9515-fee475c93aaf" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/574dea46-a46b-4929-b84f-8b71d547f3b6" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/e396937f-6e7d-4e26-8ec1-e6f17487f8b2" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/bccb2891-ca20-40bf-8d05-87a07cd122fd" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/8fbb0715-bf0e-4122-b773-e5350cc51568" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/f49bce1c-d182-4ab3-aff8-f0c30f96b67d" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/151085c5-7630-481e-aa18-e8d12d69470a" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/fa9b9f1d-e409-4cc9-9136-02d1809006bb" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/60da2361-7244-48ee-89ea-3e2a4010e871" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/dec542c4-0eb0-4bf8-aa6f-4ad53541bd4e" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/027eaeaa-16ba-43ac-937c-8f4bf06b94ba" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/65a81111-81ee-4888-9733-75f848cb0cce" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/9754ef57-5bda-4830-a9fd-6974e2119c3a" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/4ebc0a14-62bb-47a2-85d1-acb5c9858f6b" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/53702483-7dcc-4496-b023-c8da291a26fb" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/18c8ed4d-e9b4-4611-a9ed-2a9d46548f6b" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/64a82102-450d-4b30-9cf2-765658ef22aa" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/f80a3b36-cfc8-4235-a9f9-97c091df6683" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/a59c8a3b-9773-4cbf-ac67-51df04745fc4" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/88fc25bb-64c5-44fd-949f-1df07bdfd194" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/4074cda7-3b75-4712-9adb-ae246f51970d" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/3e80a965-984a-46ed-9ba8-9476e5c82b9a" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/883a7fb0-15f3-48ea-8a8f-91a0f95c6dba" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/70f535c4-c760-4d9f-b557-39725c460977" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/1c744462-a1e5-4af1-92c3-b7865889b017" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/5ed2a4ad-cc82-4ad3-886a-dee2355ad4c5" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/6aba103c-7534-463f-859b-996251644282" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/fd994331-0af1-4979-a033-b170ae6e486c" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/6d4064a2-ecfc-4f50-9cbf-34f1526535cf" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/a58b2182-36f6-4843-8b49-6a8f002a6c0f" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/79eb568d-b5cf-417e-8b4c-25f74ab0bc14" width="150"/>
+<img src="https://github.com/0danylo/chaos-game/assets/29526662/8651edf5-e884-4ae5-9c9a-fcae6a46e19b" width="150"/>
