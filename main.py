@@ -34,8 +34,8 @@ updates = 10  # number of times to update the screen
 def main():
     fractals = [
         [nflake, 3, 2], [nflake, 3, 2.8], [nflake, 4, 2.25], [nflake, 5, 2], [nflake, 6, 1.8], [carpet, 1.5, 0],
-        [vicsek, 1.5, 0], [avoiding_center_circle, 100, 1.9], [avoiding_center_circle, 100, 2],
-        [avoiding_center_circle, 200, 2.5], [no_neighbors_n_away_cw, 3, 1, 2.667], [no_neighbors_n_away_cw, 4, 2, 2], 
+        [vicsek, 1.5, 0], [avoiding_center_circle, 100, 1.9], [avoiding_center_circle, 100, 2], 
+        [avoiding_center_circle, 100, 2.5], [no_neighbors_n_away_cw, 3, 1, 2.667], [no_neighbors_n_away_cw, 4, 2, 2], 
         [no_neighbors_n_away_cw, 5, 1, 2], [no_neighbors_n_away_cw, 5, 2, 2], [no_repeats_if_last_n_same, 4, 2, 2], 
         [no_repeats_if_last_n_same, 5, 1, 1.69], [no_repeats_if_last_n_same, 5, 1, 2.59], 
         [no_repeats_if_last_n_same, 6, 1, 1.7], [no_repeats_if_last_n_same, 6, 4, 2], 
@@ -51,7 +51,7 @@ def main():
         [restricted_fractal_2, 5, 2], [restricted_fractal_2, 6, 1.8], [no_cw_neighbors_2, 4, 2.615], 
         [no_cw_neighbors_2, 4, 3.15], [no_cw_neighbors_2, 5, 1.97], [no_cw_neighbors_2, 5, 2.24], 
         [no_cw_neighbors_2, 5, 2.42], [no_cw_neighbors_2, 6, 1.7], [no_cw_neighbors_2, 6, 2], 
-        [no_cw_neighbors_2, 6, 2.2], [no_cw_neighbors_2, 8, 1.8]
+        [no_cw_neighbors_2, 6, 2.2], [no_cw_neighbors_2, 8, 1.8], [avoiding_center_circle, 200, 2.5]
     ]
 
     for i, fractal in enumerate(fractals):
